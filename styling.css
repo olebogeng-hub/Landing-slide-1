@@ -1,0 +1,517 @@
+body{
+	font-family:Arial,Sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	padding :0;
+	margin :0;
+	background-color:#D3D3D3;
+}
+/*global*/
+.container {
+	
+   	width:80%;
+	margin:auto;
+	overflow:hidden;
+
+	
+	
+}
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width ;
+}
+
+.container2 {
+	
+	width:80%;
+	margin:auto;
+	overflow:hidden;  
+}
+
+.container3 {
+	
+	width:80%;
+	margin:auto;
+	overflow:hidden;  
+
+}
+.container4 {
+	
+	width:80%;
+	margin:auto;
+	overflow:hidden;  
+background-color:white;
+
+}
+footer #rightside{
+	float:left;
+  border-radius:10%;
+
+}
+footer li{
+	
+	color:white;
+	
+	float:left;
+	display:inline ;
+	padding : 10px 10px 10px 10px ;
+}
+footer ul{
+	
+	margin :0;
+	padding:0;
+}
+footer nav{
+	text-indent:-16px;
+}
+.phone{
+	
+	
+	margin-left:40px;
+	
+	margin-top:55px;
+}
+header{
+	
+	background:white;
+	color:black;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:black 5px solid;
+	
+	
+}
+header a{
+	text-decoration:none;
+	color:black;
+	 
+}
+
+header ul{
+	margin:0;
+	padding:0;
+}
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+header #kdt{
+	float:left;
+}
+header #kdt h1{
+	margin:0;
+	
+	
+
+}	
+header nav{
+	float:right;
+	margin-top:10px;
+}
+header .highlight {
+	color:red;
+	font-weight:bold;
+}
+header a:hover{
+	color:black;
+	transition: all 0.8s ease-in-out; 
+	a:hover, a:focus {
+    text-decoration: none;
+    outline: none; }
+}
+
+#showcase{
+  min-height:400px;
+     background-image:url("background.png");
+background-color:#e8c583;  
+  color:black;
+  text-align:center;
+  opacity:70%;
+}	
+#showcase h1{
+	margin-top:70px;
+	font-size:70px;
+	margin-bottom:20px;
+	text-shadow:green;
+	font-family:Arial,Sans-serif;
+	
+	
+}
+#showcase p{
+	
+	font-size:20px;
+}
+#newsletter{
+	padding:15px;
+	color:black;
+	background:#D3D3D3;
+     
+	
+}
+
+
+.button_1{
+	background:black;
+	border:none;
+	padding-left:10px;
+	padding-right:10px;
+	height:22px;
+	
+	
+}
+/*boxes*/
+
+#boxes{
+	margin-top:20px;
+		min-height:150px;
+		
+}
+#boxes .box{
+	float:left;
+	width:23%;
+	padding:10px;
+	text-align:center;
+}
+#boxes .box img{
+	
+	width:90px;
+}
+
+#boxes h3{
+	color:Black;
+}
+footer{
+	padding:20px;
+	
+	color:white;
+	background-color:black;
+	text-align:center;
+	
+}
+
+#icon2 .icon1{
+	float :left;
+	width:25%;
+	color:black;
+	
+}
+#icon2{
+	
+	background-color:#ffe0a6;
+	float:left;
+	color:white;
+	    
+}
+
+
+
+
+#hr{
+	color:yellow
+}
+
+
+
+.image{
+	
+	border-radius:50%;
+	background-color:white;
+		border:3px solid black;
+	
+	
+}
+.image3{
+	
+	border-radius:50%;
+	background-color:white;
+		border:3px solid red;
+	
+	
+}
+.image1{
+	
+	border-radius:0.1%;
+	border:2.3px solid black;
+}
+
+.center3{
+	text-align:center;
+	list-style-position:inside;
+	color:black;
+	font-size:20px;
+	
+}
+
+ul.center3 li{
+	
+	
+	text-align:center;
+	margin-left:1%;
+	display:inline;
+	padding :10px 10px 10px 10px;
+	border-radius:50%;
+	border:2px solid white;
+	
+
+
+}
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out; }
+  a:hover, a:focus {
+    text-decoration: none;
+    outline: none; }
+
+footer{
+	padding:10px;
+	margin-top:30px;
+
+	background-color:black;
+
+	color:white;
+		border-top:white 5px solid;
+	
+}
+
+.cart{
+	width:30px;
+	cursor:pointer;
+	float:right;
+	
+	
+}
+
+button{
+	width:200px;
+	padding: 15px 0;
+	text-align:center;
+	margin:20px 10px;
+	border-radius:25px;
+	font-weight:bold;
+	border:2px solid #009688;
+	background:transparent;
+	color:#fff;
+	cursor:pointer;
+	position:relative;
+	overflow:hidden;
+	
+}
+.work{
+	background:red;
+	height:100%;
+	width:0;
+	border-radius:25px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:-1;
+	transition:0.5s;
+	
+}
+
+button:hover .work{
+	width:100%;
+	
+}
+button:hover {
+	
+	border:none;
+}
+
+.card{
+	width:200px;
+	height:230px;
+	display:inline-block;
+	border-radius:10px;
+	padding: 15px 25px;
+	box-sizing:border-box;
+	cursor:pointer;
+	margin:10px 15px;
+	background-image:url(images/pic-1.png);
+	background-position:center;
+	background-size: cover;
+	transition:transform 0.5s;
+	
+	
+	
+	
+}
+
+.card1{
+	background-image:url(1.0.webp);
+	width:20%;
+	height:20%;
+	
+}
+.card2{
+	background-image:url(3.webp);
+	width:20%;
+	height:20%;
+}
+.card3{
+	background-image:url(4.webp);
+	width:20%;
+	height:20%;
+}
+.card4{
+	background-image:url(1608171-200.png);
+	width:20%;
+	height:20%;
+}
+.card5{
+	background-image:url(1849425-200.png);
+	width:20%;
+	height:20%;
+}
+.card6{
+	background-image:url(2244816-200.png);
+	width:20%;
+	height:20%;
+}
+
+
+.card:hover{
+	transform:translateY(-10px);
+
+}
+
+.col{
+flex-basis:50%;
+	
+	
+	
+}
+.col p{
+	font-size:25px;
+	text-transform:uppercase;
+}
+.col h1{
+	font-size:40px;
+	text-decoration:uppercase;
+	font-weight:80%;
+}
+
+h5{
+	color:white;
+	font-size:20px;
+}
+.row{
+	
+	display:flex;
+	height:88%;
+	align-items:center;
+}
+
+.arrow-icons{
+		margin-top:40px;
+		display: flex;
+		margin-left:10px;
+	}
+	.arrow-icons img{
+		width:70px;
+		margin-left:10px;
+		
+	}
+	
+	.container4 .btn{
+	display	:inline-block;
+	background:orange;
+	border-radius:6px;
+	padding:10px 40px;
+	box-sizing:border-box;
+	text-decoration:none;
+	color:black;
+	box-shadow:3px 8px 22px rgba(94,28,68,0.15);
+	margin-bottom:1%;
+	
+	
+	}
+	
+	.container3 .btn1{
+	display	:inline-block;
+	background:red;
+	border-radius:6px;
+	padding:10px 40px;
+	box-sizing:border-box;
+	text-decoration:none;
+	color:white;
+	box-shadow:3px 8px 22px rgba(94,28,68,0.15);
+	margin-bottom:1%;
+	
+	
+	}
+
+	.container3 h{
+		
+		font-size:40px;
+		color:red;
+		font-weight:bold;
+		
+	}
+	.container4 #red{
+		
+		color:red;
+		display:inline;
+	}
+	
+	
+	#icon10 .icon1{
+	float :left;
+	width:25%;
+	color:black;
+	
+}
+#icon10{
+	
+	background-color:white;
+	float:left;
+	color:white;
+	    
+}
+
+
+
+.container10 #red{
+		
+		color:red;
+		display:inline;
+	}
+	
+	.container10 {
+	
+	width:80%;
+	margin:auto;
+	overflow:hidden;  
+background-color:#D3D3D3;
+
+}
+
+	.container10 .btn{
+	display	:inline-block;
+	background:orange;
+	border-radius:6px;
+	padding:10px 40px;
+	box-sizing:border-box;
+	text-decoration:none;
+	color:black;
+	box-shadow:3px 8px 22px rgba(94,28,68,0.15);
+	margin-bottom:2.5%;
+	
+	
+	}
+.show{
+	
+	color:red;
+	display:inline;
+	
+}
+.coding{
+	
+	color:black;
+	display:inline;
+	
+}
